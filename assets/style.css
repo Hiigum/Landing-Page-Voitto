@@ -1,0 +1,183 @@
+@import url(fontes.css);
+
+:root{
+    --fonte-primaria: 'Montserrat', sans-serif;
+    --cor-primaria: #E7E7E7;
+    --cor-secundaria: #FF4F5A;
+    --cor-terciaria: #1E1E1E;
+    --cor-quatro: #FFFFFF;
+}
+
+body{
+    font-family: var(--fonte-primaria);
+
+}
+
+.logo{
+    width: 80px;
+    margin: 20px 0 20px 235px;
+}
+
+.fundo-um{
+    background: var(--cor-primaria);
+}
+
+.caixa{
+    width: 35%;
+    margin: 0 0 0 13rem;
+    float: left;
+}
+
+.texto-pad{
+    padding: 10px 0;
+}
+
+.titulo{
+    font-size: 38px;
+    font-weight: 800;
+    text-align: justify;
+}
+
+.p-principal{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.p-cadastro{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: justify;
+}
+
+.block{
+    display: block;
+    padding: 10px 0;
+}
+
+.full{
+    width: 100%;
+    height: 28px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    text-align: left;
+}
+
+input.full::placeholder{
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.botao-inscreva{
+    width: 70%;
+    padding: 15px 0;
+    background: var(--cor-secundaria);
+    color: var(--cor-quatro);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.img-principal{
+    width: 500px;
+    height: 500px;
+}
+
+/* ------------------------------------- */
+
+.fundo-dois{
+    background: linear-gradient(#E7E7E7, #FFFFFF 25%)
+}
+
+.caixa-meio{
+    width: 70%;
+    margin: 0 auto 0 auto;
+
+}
+
+.caixa-meio-imgs{
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    padding-bottom: 50px;
+}
+
+.titulo-dois{
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.p-dois{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 50px 0;
+}
+
+.fonte-p-dois{
+    font-weight: 500;
+}
+
+.tamanho-img{
+    width: 29.7%;
+    padding: 0 14px;
+}
+
+.botao-comece{
+    width: 30%;
+    padding: 15px;
+    background: var(--cor-secundaria);
+    color: var(--cor-quatro);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2rem 35%;
+}
+
+/* --------------------------------------------- */
+
+.fundo-tres{
+    background: var(--cor-secundaria);
+}
+
+.caixa-tres{
+    width: 30%;
+    float: right;
+    margin-right: 9rem
+}
+
+.titulo-tres{
+    font-size: 38px;
+    font-weight: 800;
+    text-align: justify;
+    color: var(--cor-quatro);
+    margin: 100px 0 40px 0;
+}
+
+.tamanho-img-2{
+    width: 500px;
+    margin: 100px 0 100px 150px;
+}
+
+.botao-capacitar{
+    padding: 15px 30px;
+    background: var(--cor-terciaria);
+    color: var(--cor-quatro);
+    font-weight: 800;
+    font-size: 26px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2rem 0;
+}
+
+.p-tres{
+    font-size: 20px;
+}
